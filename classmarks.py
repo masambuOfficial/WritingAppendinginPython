@@ -13,7 +13,7 @@ def std_marks():
     workbook = xlsxwriter.Workbook('marks.xlsx')
     worksheet = workbook.add_worksheet()
 
-    std_name = input("Please enter your Fulname: ")
+    std_name = input("Please enter your Fullname: ")
     test1 = int(input("Enter your test 1 Marks: "))
     test2 = int(input("Enter your test 2 Marks: "))
     coursework = int(input("Enter your coursework Marks: "))
